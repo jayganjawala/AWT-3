@@ -1,6 +1,5 @@
 import React from "react";
 import {Link} from 'react-router-dom'
-import image from './homePage-1.jpeg';
 
 export default function Home() {
     return (
@@ -30,10 +29,6 @@ export default function Home() {
                             &nbsp; Download now
                         </Link>
                     </div>
-                </div>
-
-                <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src={image} alt="image1" />
                 </div>
             </aside>
 
